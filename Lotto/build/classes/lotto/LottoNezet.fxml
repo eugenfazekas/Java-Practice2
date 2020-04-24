@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lotto.LottoNezetController">
+    <children>
+      <Pane id="basePane" fx:id="basePane" prefHeight="300.0" prefWidth="400.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cbd8e4" height="306.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+              <Button fx:id="button" layoutX="155.0" layoutY="239.0" onAction="#handleButtonAction" text="Sorsolas" textFill="#50d744">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <HBox layoutX="38.0" layoutY="100.0" spacing="40.0">
+               <children>
+                  <TextField id="input1" fx:id="input1" layoutX="18.0" layoutY="95.0" prefHeight="25.0" prefWidth="33.0" />
+                  <TextField id="input2" fx:id="input2" layoutX="76.0" layoutY="95.0" prefHeight="25.0" prefWidth="33.0" />
+                  <TextField id="input3" fx:id="input3" layoutX="134.0" layoutY="95.0" prefHeight="25.0" prefWidth="33.0" />
+                  <TextField id="input4" fx:id="input4" layoutX="194.0" layoutY="95.0" prefHeight="25.0" prefWidth="33.0" />
+                  <TextField id="input5" fx:id="input5" layoutX="251.0" layoutY="95.0" prefHeight="25.0" prefWidth="33.0" />
+               </children>
+            </HBox>
+            <TextField layoutX="113.0" layoutY="60.0" prefHeight="25.0" prefWidth="173.0" promptText="Irj be 5 szamot 1 es 90 kozot!" />
+            <TextField alignment="CENTER" promptText="Lotto">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <HBox layoutX="50.0" layoutY="179.0" spacing="60.0">
+               <children>
+                  <Label id="Label1" fx:id="Label1" layoutX="21.0" layoutY="145.0" />
+                  <Label id="Label2" fx:id="Label2" layoutX="76.0" layoutY="145.0" />
+                  <Label id="Label3" fx:id="Label3" layoutX="137.0" layoutY="145.0" />
+                  <Label id="Label4" fx:id="Label4" layoutX="197.0" layoutY="145.0" />
+                  <Label id="Label5" fx:id="Label5" layoutX="254.0" layoutY="145.0" />
+               </children>
+            </HBox>
+            <Label id="eredmenyLabel" fx:id="eredmenyLabel" alignment="CENTER" contentDisplay="TOP" layoutX="81.0" layoutY="211.0" prefHeight="17.0" prefWidth="240.0" textAlignment="CENTER" textFill="#e40b0b" />
+         </children>
+      </Pane>
+      <Pane id="alertPane" fx:id="alertPane" prefHeight="300.0" prefWidth="400.0" visible="false">
+         <children>
+            <Rectangle arcHeight="50.0" arcWidth="50.0" fill="DODGERBLUE" height="99.0" layoutX="89.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="225.0" />
+            <Label id="alertText" fx:id="alertText" alignment="CENTER" layoutX="82.0" layoutY="128.0" prefHeight="99.0" prefWidth="240.0" />
+            <Button id="alertButton" fx:id="alertButton" layoutX="174.0" layoutY="193.0" mnemonicParsing="false" onAction="#handleAlertButton" text="OK" />
+         </children></Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Sep 14 23:31:54 EEST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016d-3179-93ab-00000dcb8120 
+on database directory C:\Users\Ace Mcloud\Documents\NetBeansProjects\PhoneBook\dist\sampleFirstconnection with class loader sun.misc.Launcher$ExtClassLoader@28d93b30 
+Loaded from file:/C:/Program%20Files/Java/jre1.8.0_221/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\Ace Mcloud\Documents\NetBeansProjects\PhoneBook\dist
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
